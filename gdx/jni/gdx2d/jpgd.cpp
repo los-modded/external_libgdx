@@ -1317,6 +1317,7 @@ void jpeg_decoder::locate_sof_marker()
   {
     case M_SOF2:
       m_progressive_flag = JPGD_TRUE;
+      break;
     case M_SOF0:  /* baseline DCT */
     case M_SOF1:  /* extended sequential DCT */
     {
