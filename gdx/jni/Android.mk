@@ -2,6 +2,7 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := libgdx
+LOCAL_PRODUCT_MODULE := true
 LOCAL_C_INCLUDES :=
 
 # Ignore warnings until they are fixed upstream. See https://github.com/libgdx/libgdx/issues/4169
